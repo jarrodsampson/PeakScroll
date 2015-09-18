@@ -1,0 +1,32 @@
+.peakScroll-up {
+    position: fixed;
+    display: none;
+    z-index: 999;
+    bottom: 2em;
+    right: 2em;
+
+}
+
+.peakScroll-up a {
+    background-color: rgba(135, 135, 135, 0.5);
+    display: block;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    color: #fff;
+    font-size: 15px;
+    line-height: 30px;
+}
+
+.peakScroll-up a:hover,
+.peakScroll-up a:active {
+    background-color: rgba(235, 235, 235, .8);
+    color: orange;
+}
+
+.peakScroll-up a {
+    -webkit-border-radius: 3px;
+       -moz-border-radius: 3px;
+         -o-border-radius: 3px;
+            border-radius: 3px;
+}
